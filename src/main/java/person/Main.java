@@ -24,7 +24,6 @@ public class Main {
             em.persist(person);
         }
         em.getTransaction().commit();
-
         em.close();
         emf.close();
     }
